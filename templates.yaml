@@ -4,7 +4,9 @@ first: First,
 
 subsequent: Next,
 
-holiday: there is a {{ holiday_type }} holiday on {{ month }} {{ date }} which is a {{ day }}. You can get a {{ number_of_days }} days off. 
+holiday: there is a {{ holiday_type }} holiday on {{ month }} {{ date }} which is a {{ day }}. You can get a {{ number_of_days }} days off.
+
+complete: that's all the holidays we know so far
 
 next: Do you want me to tell about next?
 
