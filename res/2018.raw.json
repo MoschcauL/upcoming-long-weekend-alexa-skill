@@ -1,0 +1,296 @@
+[
+    {
+        "date": "Jan 1", 
+        "day": "Monday", 
+        "name": "New Year's Day", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jan 5", 
+        "day": "Friday", 
+        "name": "Guru Govind Singh Jayanti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jan 14", 
+        "day": "Sunday", 
+        "name": "Pongal", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jan 14", 
+        "day": "Sunday", 
+        "name": "Makar Sankranti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jan 22", 
+        "day": "Monday", 
+        "name": "Vasant Panchami", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jan 26", 
+        "day": "Friday", 
+        "name": "Republic Day", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Jan 31", 
+        "day": "Wednesday", 
+        "name": "Guru Ravidas Jayanti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Feb 10", 
+        "day": "Saturday", 
+        "name": "Maharishi Dayanand Saraswati Jayanti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Feb 13", 
+        "day": "Tuesday", 
+        "name": "Maha Shivaratri/Shivaratri", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Feb 19", 
+        "day": "Monday", 
+        "name": "Shivaji Jayanti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Mar 1", 
+        "day": "Thursday", 
+        "name": "Holika Dahana", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Mar 2", 
+        "day": "Friday", 
+        "name": "Holi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Mar 18", 
+        "day": "Sunday", 
+        "name": "Chaitra Sukhladi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Mar 25", 
+        "day": "Sunday", 
+        "name": "Rama Navami", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Mar 29", 
+        "day": "Thursday", 
+        "name": "Mahavir Jayanti", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Mar 30", 
+        "day": "Friday", 
+        "name": "Good Friday", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Apr 1", 
+        "day": "Sunday", 
+        "name": "Hazarat Ali's Birthday", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Apr 1", 
+        "day": "Sunday", 
+        "name": "Easter Day", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Apr 14", 
+        "day": "Saturday", 
+        "name": "Vaisakhi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Apr 15", 
+        "day": "Sunday", 
+        "name": "Mesadi/Vaisakhadi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Apr 30", 
+        "day": "Monday", 
+        "name": "Buddha Purnima/Vesak", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "May 9", 
+        "day": "Wednesday", 
+        "name": "Birthday of Ravindranath", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jun 15", 
+        "day": "Friday", 
+        "name": "Jamat Ul-Vida", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Jul 14", 
+        "day": "Saturday", 
+        "name": "Rath Yatra", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Aug 15", 
+        "day": "Wednesday", 
+        "name": "Independence Day", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Aug 17", 
+        "day": "Friday", 
+        "name": "Parsi New Year", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Aug 22", 
+        "day": "Wednesday", 
+        "name": "Bakr Id/Eid ul-Adha", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Aug 25", 
+        "day": "Saturday", 
+        "name": "Onam", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Aug 26", 
+        "day": "Sunday", 
+        "name": "Raksha Bandhan (Rakhi)", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Sep 3", 
+        "day": "Monday", 
+        "name": "Janmashtami", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Sep 13", 
+        "day": "Thursday", 
+        "name": "Ganesh Chaturthi/Vinayaka Chaturthi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Sep 21", 
+        "day": "Friday", 
+        "name": "Muharram/Ashura", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Oct 2", 
+        "day": "Tuesday", 
+        "name": "Mahatma Gandhi Jayanti", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Oct 16", 
+        "day": "Tuesday", 
+        "name": "Maha Saptami", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Oct 17", 
+        "day": "Wednesday", 
+        "name": "Maha Navami", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Oct 17", 
+        "day": "Wednesday", 
+        "name": "Maha Ashtami", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Oct 19", 
+        "day": "Friday", 
+        "name": "Dussehra (Maha Navami)", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Oct 24", 
+        "day": "Wednesday", 
+        "name": "Maharishi Valmiki Jayanti", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Oct 27", 
+        "day": "Saturday", 
+        "name": "Karaka Chaturthi (Karva Chauth)", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Nov 6", 
+        "day": "Tuesday", 
+        "name": "Naraka Chaturdasi", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Nov 7", 
+        "day": "Wednesday", 
+        "name": "Diwali/Deepavali", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Nov 8", 
+        "day": "Thursday", 
+        "name": "Govardhan Puja", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Nov 9", 
+        "day": "Friday", 
+        "name": "Bhai Duj", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Nov 13", 
+        "day": "Tuesday", 
+        "name": "Chhat Puja (Pratihar Sashthi/Surya Sashthi)", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Nov 21", 
+        "day": "Wednesday", 
+        "name": "Milad un-Nabi/Id-e-Milad", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Nov 23", 
+        "day": "Friday", 
+        "name": "Guru Nanak Jayanti", 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": "Nov 24", 
+        "day": "Saturday", 
+        "name": "Guru Tegh Bahadur's Martyrdom Day", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Dec 24", 
+        "day": "Monday", 
+        "name": "Christmas Eve", 
+        "type": "Restricted"
+    }, 
+    {
+        "date": "Dec 25", 
+        "day": "Tuesday", 
+        "name": "Christmas", 
+        "type": "Gazetted"
+    }
+]
