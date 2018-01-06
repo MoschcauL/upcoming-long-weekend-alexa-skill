@@ -1,0 +1,130 @@
+[
+    {
+        "date": 1, 
+        "day": "Monday", 
+        "month": "January", 
+        "name": "New Year's Day", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 5, 
+        "day": "Friday", 
+        "month": "January", 
+        "name": "Guru Govind Singh Jayanti", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 22, 
+        "day": "Monday", 
+        "month": "January", 
+        "name": "Vasant Panchami", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 26, 
+        "day": "Friday", 
+        "month": "January", 
+        "name": "Republic Day", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 19, 
+        "day": "Monday", 
+        "month": "February", 
+        "name": "Shivaji Jayanti", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 2, 
+        "day": "Friday", 
+        "month": "March", 
+        "name": "Holi", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 30, 
+        "day": "Friday", 
+        "month": "March", 
+        "name": "Good Friday", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 30, 
+        "day": "Monday", 
+        "month": "April", 
+        "name": "Buddha Purnima/Vesak", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 15, 
+        "day": "Friday", 
+        "month": "June", 
+        "name": "Jamat Ul-Vida", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 17, 
+        "day": "Friday", 
+        "month": "August", 
+        "name": "Parsi New Year", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 3, 
+        "day": "Monday", 
+        "month": "September", 
+        "name": "Janmashtami", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 21, 
+        "day": "Friday", 
+        "month": "September", 
+        "name": "Muharram/Ashura", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 19, 
+        "day": "Friday", 
+        "month": "October", 
+        "name": "Dussehra (Maha Navami)", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 9, 
+        "day": "Friday", 
+        "month": "November", 
+        "name": "Bhai Duj", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }, 
+    {
+        "date": 23, 
+        "day": "Friday", 
+        "month": "November", 
+        "name": "Guru Nanak Jayanti", 
+        "number_of_days": 3, 
+        "type": "Gazetted"
+    }, 
+    {
+        "date": 24, 
+        "day": "Monday", 
+        "month": "December", 
+        "name": "Christmas Eve", 
+        "number_of_days": 3, 
+        "type": "Restricted"
+    }
+]

@@ -4,7 +4,7 @@ first: First,
 
 subsequent: Next,
 
-holiday: there is a {{ holiday_type }} holiday on {{ month }} {{ date }} which is a {{ day }}. You can get a {{ number_of_days }} days off.
+holiday: there is a {{ holiday_obj.type }} holiday, {{ holiday_obj.name }} on {{ holiday_obj.month }} {{ holiday_obj.date }} which is a {{ holiday_obj.day }}. You can get a {{ holiday_obj.number_of_days }} days off.
 
 complete: that's all the holidays we know so far
 

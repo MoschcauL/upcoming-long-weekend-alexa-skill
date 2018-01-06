@@ -1,16 +1,12 @@
-import json
+import os
 from flask import Flask, render_template
 from flask_ask import Ask, statement, question, session
 
+import utils as u
+import constants as c
+
 app = Flask(__name__)
 ask = Ask(app, "/")
-
-HOLIDAY_JSON_PATH = "res/2018.json"
-
-
-def _load_json(fp):
-    with open(fp) as data_file:
-        return json.load(data_file)
 
 
 @ask.launch
@@ -22,7 +18,8 @@ def welcome():
 
 @ask.intent("HolidayIntent")
 def holiday():
-    holidays_data = _load_json(HOLIDAY_JSON_PATH)
+    holiday_fp = os.path.join(c.RESOURCE_DIRECTORY, c.FINAL_OUTPUT_JSON)
+    holidays_data = u.load_json(holiday_fp)
     if 'counter' in session.attributes:
         holiday_ctr = session.attributes['counter']
     else:
@@ -32,20 +29,16 @@ def holiday():
     if holiday_ctr >= len(holidays_data):
         return statement(render_template('complete'))
 
-    holiday_type = holidays_data[holiday_ctr]['type']
-    month = holidays_data[holiday_ctr]['month']
-    date = holidays_data[holiday_ctr]['date']
-    day = holidays_data[holiday_ctr]['day']
-    number_of_days = holidays_data[holiday_ctr]['number_of_days']
+    holiday_obj = holidays_data[holiday_ctr]
 
-    holiday_message = render_template('holiday', holiday_type=holiday_type, month=month, date=date, day=day,
-                                      number_of_days=number_of_days)
     session.attributes['counter'] += 1
-
+    holiday_message = render_template('holiday', holiday_obj=holiday_obj)
     if session.attributes['counter'] == 1:
-        msg = render_template('first') + holiday_message + " " + render_template('next')
+        msg = render_template('first') + holiday_message + " " + \
+              render_template('next')
     else:
-        msg = render_template('subsequent') + holiday_message + " " + render_template('next')
+        msg = render_template('subsequent') + holiday_message + " " + \
+              render_template('next')
 
     return question(msg)
 
@@ -76,9 +69,6 @@ def handle_help():
 
 @ask.session_ended
 def session_ended():
-    """
-    Returns an empty for `session_ended`.
-    """
     return statement("")
 
 

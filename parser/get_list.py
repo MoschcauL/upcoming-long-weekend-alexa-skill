@@ -1,33 +1,19 @@
-import json
-import requests
+import sys
+import os
 import math
 from bs4 import BeautifulSoup
 
+# change directory
+sys.path.append(os.path.dirname(os.getcwd()))
+os.chdir(os.path.dirname(os.getcwd()))
 
-def load_url(url):
-    try:
-        r = requests.get(url)
-        if r.ok:
-            return r.text
-        else:
-            return None
-    except Exception:
-        return None
-
-
-def store_json_response(fp, obj, beautify_mode=True):
-    with open(fp, 'w+') as f:
-        if beautify_mode:
-            json.dump(obj, f, sort_keys=True, indent=4)
-        else:
-            json.dump(obj, f)
+import constants as c
+import utils as u
 
 
 def main():
-    output_fp = "../res/2018.raw.json"
-    public_url = 'https://www.timeanddate.com/holidays/india/2018'
-    html = load_url(public_url)
     raw_output = []
+    html = u.load_url(c.HOLIDAYS_URL)
     if html:
         soup = BeautifulSoup(html, 'html.parser')
         cells = soup.findAll(['th', 'td'])
@@ -39,7 +25,7 @@ def main():
 
             offset = ctr * 4
             holiday_type = cells[offset + 3].text.split()
-            if holiday_type[0] in ["Restricted", 'Gazetted']:
+            if holiday_type[0] in c.IGNORE_HOLIDAY_TYPES:
                 raw_output_obj = {
                     'date': cells[offset + 0].text.strip(),
                     'day': cells[offset + 1].text.strip(),
@@ -50,7 +36,8 @@ def main():
             else:
                 print holiday_type
 
-    store_json_response(output_fp, raw_output)
+    output_fp = os.path.join(c.RESOURCE_DIRECTORY, c.RAW_OUTPUT_JSON)
+    u.store_json(output_fp, raw_output)
 
 
 if __name__ == '__main__':
